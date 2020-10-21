@@ -1,0 +1,220 @@
+Attaching to jawaapp_tomcat_1, jawaapp_maven_1, jawaapp_mysql_1
+[33mmysql_1   |[0m 2020-10-20 19:03:25+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.21-1debian10 started.
+[33mmysql_1   |[0m 2020-10-20 19:03:25+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+[33mmysql_1   |[0m 2020-10-20 19:03:25+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.21-1debian10 started.
+[33mmysql_1   |[0m 2020-10-20 19:03:25+00:00 [Note] [Entrypoint]: Initializing database files
+[33mmysql_1   |[0m 2020-10-20T19:03:25.585403Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.21) initializing of server in progress as process 42
+[33mmysql_1   |[0m 2020-10-20T19:03:25.590872Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+[33mmysql_1   |[0m 2020-10-20T19:03:27.904439Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+[33mmysql_1   |[0m 2020-10-20T19:03:31.871066Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+[33mmysql_1   |[0m 2020-10-20 19:03:39+00:00 [Note] [Entrypoint]: Database files initialized
+[33mmysql_1   |[0m 2020-10-20 19:03:39+00:00 [Note] [Entrypoint]: Starting temporary server
+[33mmysql_1   |[0m 2020-10-20T19:03:40.029152Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.21) starting as process 89
+[33mmysql_1   |[0m 2020-10-20T19:03:40.052375Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+[33mmysql_1   |[0m 2020-10-20T19:03:40.420906Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+[33mmysql_1   |[0m 2020-10-20T19:03:40.504248Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+[33mmysql_1   |[0m 2020-10-20T19:03:40.627838Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+[33mmysql_1   |[0m 2020-10-20T19:03:40.628020Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+[33mmysql_1   |[0m 2020-10-20T19:03:40.633162Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+[33mmysql_1   |[0m 2020-10-20T19:03:40.650031Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.21'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+[33mmysql_1   |[0m 2020-10-20 19:03:40+00:00 [Note] [Entrypoint]: Temporary server started.
+[33mmysql_1   |[0m Warning: Unable to load '/usr/share/zoneinfo/iso3166.tab' as time zone. Skipping it.
+[33mmysql_1   |[0m Warning: Unable to load '/usr/share/zoneinfo/leap-seconds.list' as time zone. Skipping it.
+[33mmysql_1   |[0m Warning: Unable to load '/usr/share/zoneinfo/zone.tab' as time zone. Skipping it.
+[33mmysql_1   |[0m Warning: Unable to load '/usr/share/zoneinfo/zone1970.tab' as time zone. Skipping it.
+[33mmysql_1   |[0m 2020-10-20 19:03:44+00:00 [Note] [Entrypoint]: Creating database dd
+[33mmysql_1   |[0m 2020-10-20 19:03:44+00:00 [Note] [Entrypoint]: Creating user acp4pogynvaeidfj
+[33mmysql_1   |[0m 2020-10-20 19:03:44+00:00 [Note] [Entrypoint]: Giving user acp4pogynvaeidfj access to schema dd
+[33mmysql_1   |[0m 
+[33mmysql_1   |[0m 2020-10-20 19:03:44+00:00 [Note] [Entrypoint]: Stopping temporary server
+[33mmysql_1   |[0m 2020-10-20T19:03:44.404817Z 14 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.21).
+[33mmysql_1   |[0m 2020-10-20T19:03:47.720490Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.21)  MySQL Community Server - GPL.
+[33mmysql_1   |[0m 2020-10-20 19:03:48+00:00 [Note] [Entrypoint]: Temporary server stopped
+[33mmysql_1   |[0m 
+[33mmysql_1   |[0m 2020-10-20 19:03:48+00:00 [Note] [Entrypoint]: MySQL init process done. Ready for start up.
+[33mmysql_1   |[0m 
+[33mmysql_1   |[0m 2020-10-20T19:03:48.700555Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.21) starting as process 1
+[33mmysql_1   |[0m 2020-10-20T19:03:48.708877Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+[33mmysql_1   |[0m 2020-10-20T19:03:49.111797Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+[33mmysql_1   |[0m 2020-10-20T19:03:49.195034Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+[33mmysql_1   |[0m 2020-10-20T19:03:49.269303Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+[33mmysql_1   |[0m 2020-10-20T19:03:49.269485Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+[33mmysql_1   |[0m 2020-10-20T19:03:49.281809Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+[33mmysql_1   |[0m 2020-10-20T19:03:49.298066Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.21'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+[33mmysql_1   |[0m 2020-10-20T19:12:49.299346Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.21).
+[33mmysql_1   |[0m 2020-10-20T19:12:50.410613Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.21)  MySQL Community Server - GPL.
+[33mmysql_1   |[0m 2020-10-21 12:32:34+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.21-1debian10 started.
+[33mmysql_1   |[0m 2020-10-21 12:32:41+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+[33mmysql_1   |[0m 2020-10-21 12:32:41+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.21-1debian10 started.
+[33mmysql_1   |[0m 2020-10-21T12:32:42.425012Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.21) starting as process 1
+[33mmysql_1   |[0m 2020-10-21T12:32:42.490285Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+[33mmysql_1   |[0m 2020-10-21T12:32:44.389923Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+[33mmysql_1   |[0m 2020-10-21T12:32:46.239950Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+[33mmysql_1   |[0m 2020-10-21T12:32:46.915798Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+[33mmysql_1   |[0m 2020-10-21T12:32:46.916313Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+[33mmysql_1   |[0m 2020-10-21T12:32:46.991925Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+[33mmysql_1   |[0m 2020-10-21T12:32:47.428305Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.21'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+[36mmaven_1   |[0m [INFO] Scanning for projects...
+[36mmaven_1   |[0m [INFO] ------------------------------------------------------------------------
+[36mmaven_1   |[0m [INFO] BUILD FAILURE
+[36mmaven_1   |[0m [INFO] ------------------------------------------------------------------------
+[36mmaven_1   |[0m [INFO] Total time:  0.274 s
+[36mmaven_1   |[0m [INFO] Finished at: 2020-10-21T12:32:35Z
+[36mmaven_1   |[0m [INFO] ------------------------------------------------------------------------
+[36mmaven_1   |[0m [ERROR] No goals have been specified for this build. You must specify a valid lifecycle phase or a goal in the format <plugin-prefix>:<goal> or <plugin-group-id>:<plugin-artifact-id>[:<plugin-version>]:<goal>. Available lifecycle phases are: validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy, pre-clean, clean, post-clean, pre-site, site, post-site, site-deploy. -> [Help 1]
+[36mmaven_1   |[0m [ERROR] 
+[36mmaven_1   |[0m [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[36mmaven_1   |[0m [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[36mmaven_1   |[0m [ERROR] 
+[36mmaven_1   |[0m [ERROR] For more information about the errors and possible solutions, please read the following articles:
+[36mmaven_1   |[0m [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoGoalSpecifiedException
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:44.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.59
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:44.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 16:57:18 UTC
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:44.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.59.0
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:44.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:44.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-55-generic
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:44.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:44.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8-openjdk/jre
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:44.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_212-b04
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:44.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            IcedTea
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:44.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:44.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:44.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/conf/logging.properties
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:44.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:44.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:44.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:44.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:44.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:44.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:44.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:44.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/temp
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:44.735 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:46.357 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:46.505 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:46.543 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 4238 ms
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:46.681 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:46.682 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.59
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:46.810 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat/webapps/App42PaaS-Java-MySQL-Sample-0.0.1-SNAPSHOT.war]
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:50.344 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:50.463 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat/webapps/App42PaaS-Java-MySQL-Sample-0.0.1-SNAPSHOT.war] has finished in [3,652] ms
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:50.471 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+[32mtomcat_1  |[0m 21-Oct-2020 12:32:50.487 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3943 ms
+[32mtomcat_1  |[0m 21-Oct-2020 12:33:53.450 INFO [http-nio-8080-exec-1] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+[32mtomcat_1  |[0m  Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+[32mtomcat_1  |[0m 	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030x86!C0x860x90Z0xa30xb50xc30x88G0x08tt%!E0xd80x1d~0xb00x87z0xd20xac0xda0xc0B30x7f0xf70xfe]. HTTP method names must be tokens
+[32mtomcat_1  |[0m 		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:431)
+[32mtomcat_1  |[0m 		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:503)
+[32mtomcat_1  |[0m 		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+[32mtomcat_1  |[0m 		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+[32mtomcat_1  |[0m 		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+[32mtomcat_1  |[0m 		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+[32mtomcat_1  |[0m 		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[32mtomcat_1  |[0m 		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[32mtomcat_1  |[0m 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+[32mtomcat_1  |[0m 		at java.lang.Thread.run(Thread.java:748)
+[32mtomcat_1  |[0m Query: INSERT INTO user(name,description,email) VALUES('hghj', 'Enter your instgjhgruction here...', 'jhg')
+[32mtomcat_1  |[0m Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+[32mtomcat_1  |[0m 21-Oct-2020 12:34:05.892 INFO [http-nio-8080-exec-3] org.springframework.jdbc.datasource.DriverManagerDataSource.setDriverClassName Loaded JDBC driver: com.mysql.jdbc.Driver
+[32mtomcat_1  |[0m java.lang.NumberFormatException: null
+[32mtomcat_1  |[0m 	at java.lang.Integer.parseInt(Integer.java:542)
+[32mtomcat_1  |[0m 	at java.lang.Integer.<init>(Integer.java:867)
+[32mtomcat_1  |[0m 	at com.shephertz.app42.paas.sample.util.Util.getDBPort(Util.java:57)
+[32mtomcat_1  |[0m 	at com.shephertz.app42.paas.sample.db.DBManager.<init>(DBManager.java:42)
+[32mtomcat_1  |[0m 	at com.shephertz.app42.paas.sample.db.DBManager.<clinit>(DBManager.java:20)
+[32mtomcat_1  |[0m 	at com.shephertz.app42.paas.sample.FormSave.doPost(FormSave.java:55)
+[32mtomcat_1  |[0m 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+[32mtomcat_1  |[0m 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+[32mtomcat_1  |[0m 	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+[32mtomcat_1  |[0m 	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+[32mtomcat_1  |[0m 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+[32mtomcat_1  |[0m 	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+[32mtomcat_1  |[0m 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+[32mtomcat_1  |[0m 	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+[32mtomcat_1  |[0m 	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+[32mtomcat_1  |[0m 	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+[32mtomcat_1  |[0m 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+[32mtomcat_1  |[0m 	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+[32mtomcat_1  |[0m 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[32mtomcat_1  |[0m 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[32mtomcat_1  |[0m 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+[32mtomcat_1  |[0m 	at java.lang.Thread.run(Thread.java:748)
+[32mtomcat_1  |[0m Table Already Created
+[32mtomcat_1  |[0m 21-Oct-2020 12:34:05.921 INFO [http-nio-8080-exec-3] org.springframework.jdbc.datasource.DriverManagerDataSource.setDriverClassName Loaded JDBC driver: com.mysql.jdbc.Driver
+[32mtomcat_1  |[0m java.lang.NumberFormatException: null
+[32mtomcat_1  |[0m 	at java.lang.Integer.parseInt(Integer.java:542)
+[32mtomcat_1  |[0m 	at java.lang.Integer.<init>(Integer.java:867)
+[32mtomcat_1  |[0m 	at com.shephertz.app42.paas.sample.util.Util.getDBPort(Util.java:57)
+[32mtomcat_1  |[0m 	at com.shephertz.app42.paas.sample.db.DBManager.<init>(DBManager.java:42)
+[32mtomcat_1  |[0m 	at com.shephertz.app42.paas.sample.FormSave.doPost(FormSave.java:55)
+[32mtomcat_1  |[0m 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+[32mtomcat_1  |[0m 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+[32mtomcat_1  |[0m 	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+[32mtomcat_1  |[0m 	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+[32mtomcat_1  |[0m 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+[32mtomcat_1  |[0m 	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+[32mtomcat_1  |[0m 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+[32mtomcat_1  |[0m 	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+[32mtomcat_1  |[0m 	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+[32mtomcat_1  |[0m 	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+[32mtomcat_1  |[0m 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+[32mtomcat_1  |[0m 	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+[32mtomcat_1  |[0m 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[32mtomcat_1  |[0m 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[32mtomcat_1  |[0m 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+[32mtomcat_1  |[0m 	at java.lang.Thread.run(Thread.java:748)
+[32mtomcat_1  |[0m org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: The url cannot be null
+[32mtomcat_1  |[0m 	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+[32mtomcat_1  |[0m 	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:573)
+[32mtomcat_1  |[0m 	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:843)
+[32mtomcat_1  |[0m 	at com.shephertz.app42.paas.sample.db.DBManager.insert(DBManager.java:111)
+[32mtomcat_1  |[0m 	at com.shephertz.app42.paas.sample.FormSave.doPost(FormSave.java:56)
+[32mtomcat_1  |[0m 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+[32mtomcat_1  |[0m 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+[32mtomcat_1  |[0m 	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+[32mtomcat_1  |[0m 	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+[32mtomcat_1  |[0m 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+[32mtomcat_1  |[0m 	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+[32mtomcat_1  |[0m 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+[32mtomcat_1  |[0m 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+[32mtomcat_1  |[0m 	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+[32mtomcat_1  |[0m 	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+[32mtomcat_1  |[0m 	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+[32mtomcat_1  |[0m 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+[32mtomcat_1  |[0m 	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+[32mtomcat_1  |[0m 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[32mtomcat_1  |[0m 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[32mtomcat_1  |[0m 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+[32mtomcat_1  |[0m 	at java.lang.Thread.run(Thread.java:748)
+[32mtomcat_1  |[0m Caused by: java.sql.SQLException: The url cannot be null
+[32mtomcat_1  |[0m 	at java.sql.DriverManager.getConnection(DriverManager.java:649)
+[32mtomcat_1  |[0m 	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+[32mtomcat_1  |[0m 	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriverManager(DriverManagerDataSource.java:173)
+[32mtomcat_1  |[0m 	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriver(DriverManagerDataSource.java:164)
+[32mtomcat_1  |[0m 	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnectionFromDriver(AbstractDriverBasedDataSource.java:149)
+[32mtomcat_1  |[0m 	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:119)
+[32mtomcat_1  |[0m 	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+[32mtomcat_1  |[0m 	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+[32mtomcat_1  |[0m 	... 28 more
